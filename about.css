@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700");
+
+*{
+    list-style: none;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body
+{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+#backgroud1
+{
+    width: 100%;
+    height: 60vh;
+    background-image: url(img/home-banner.jpg);
+    display: flex;
+    flex-direction: column;
+        position: relative;
+    overflow: hidden;
+    
+}
+
+header
+{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 55%);
+    vertical-align: middle;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#txtselect
+{
+    color: #fcdc00;
+}
+#imgLogo
+{
+   width: 118px;
+   height: 29px;
+   margin-right: 8vw;
+   margin-left: 10vw;
+  
+}
+
+a
+{
+    color: #fff;
+    text-transform: uppercase;
+}
+#lupa
+{
+    margin-left: 10vw;
+}
+h2
+{
+    
+    font-weight: bold;
+    color: #fff;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+    padding-top: 60px;
+    text-align: center;
+    margin-top: 10vh;
+
+}
+
+
+#txt1
+{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+#backgroud2
+{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#org1
+{
+   justify-items: center;
+   
+}
+
+#divABOUT
+{
+    background: #fff;
+    margin-top: -140px;
+    z-index: 2;
+    position: relative;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    width: 30%;
+    box-sizing: border-box;
+}
+#txt2
+{
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 22px;
+}
+
+#txt3
+{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    margin-bottom: 0px;
+}
+
+#backgroud3
+{
+    width: 100%;
+    height: 60vh;
+    background-color: #fcdc00;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    
+
+}
+
+#divfeedback1
+{
+   display: inline-block;
+   max-height: 30vh;
+   
+}
+
+#divfeeedback2
+{
+    display: inline-block;
+    background-color: #fff;
+    height: 27vh;   
+    width: 40vw;
+    vertical-align: middle;
+}
+p
+{
+    font-size: 36px;
+    font-weight: bold;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 18px;
+}
+
+#txt6
+{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    margin-bottom: 17px;
+}
+
+#txt7
+{
+    font-weight: bold;
+    color: #222222;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+h6
+{
+        font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #777777;
+    margin-bottom: 0px;
+}
+
+#imgfeedback
+{
+    vertical-align: top;
+    display: inline-block;
+  
+}
+
+#orgfeedback
+{
+    display: inline-block;
+    width: 80%;
+    margin-left: 20px;
+}
+#txt8
+{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    margin-bottom: 17px;
+}
+
+#org3
+{
+    margin-top: 70px;
+    margin-left: 10px;
+    padding-left: 50px;
+}
+
+#backgroud4
+{
+    padding-top: 20vh;
+    text-align: center;
+    height: 140vh;
+    padding-bottom: 150px;
+    
+}
+
+#backgroud4>div>h2
+{
+    font-size: 50px;
+    font-weight: 600;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+}
+
+#txt10
+{
+    font-size: 14px;
+    color: #777777;
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding-bottom: 10vh;
+}
+
+#org4
+{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 40%;
+    flex-wrap: wrap;
+    margin-left: 9.5vw;
+    
+ 
+}
+
+#divINFO
+{
+   
+    text-align: center;
+    border: 1px solid #eeeeee;
+    padding: 40px;
+    text-align: center;
+    max-width: 25%;
+    max-height: 30%;
+    margin-bottom: 40px;
+}
+
+#divINFO:hover
+{
+   transition: 0.3s;
+   background: #fcdc00;
+}
+
+#divINFO:hover #txt11
+{
+   transition: 0.3s;
+   color: #222222;
+}
+
+h4
+{
+    color: #222222;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+
+#txt11
+{
+    margin-bottom: 0px;
+    color: #777777;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 100;
+}
+
+#btnFOLLOW
+{
+    background: #fcdc00;
+    border-radius: 0px;
+    border: none;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+    padding: 0px 28px;
+    display: inline-block;
+    margin-top: 20vh;
+   
+}
+#org5
+{    
+    display: flex;
+    justify-content: center;
+    margin-top: 8.5vh;
+    
+    
+}
+
+#imgINST
+{
+    max-width: 12%;
+}
+#imgINST:hover
+{
+    text-decoration: none;
+    outline: none;
+}
+
+footer
+{
+    background: #04091e;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
+}
+#org6
+{
+        max-width: 390px;
+        box-sizing: border-box;
+       
+}
+
+h3
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0px;
+    line-height: 1.5em;
+    display: block;
+}
+.txt11
+{
+    margin-top: 3vh;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    margin-bottom: 30px;
+     display: block;
+}
+
+#org7
+{
+      max-width: 390px;
+      box-sizing: border-box;     
+      width: 20vw;
+      margin-left: 10vw;
+      margin-right: 1vw;
+      
+}
+#btnEmail
+{
+    border-radius: 0px;
+    background: #fcdc00;
+    width: 42px;
+  
+    padding: 0 15px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;   
+    border: none;
+}
+
+#txtEmail
+{
+    height: 40px;
+    background: #f9f9ff;
+    border-radius: 0px;
+    width: 100%;
+    padding: 0px 15px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #cccccc;
+    font-weight: 300;
+}
+#org8
+{
+    display: flex;
+}
